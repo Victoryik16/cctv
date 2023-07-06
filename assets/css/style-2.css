@@ -1,0 +1,721 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/* ============================================================
+    [Master Stylesheet]
+
+    Theme Name:     Secrius 
+    Theme URI:      https://themeforest.net/user/raistheme
+    Description:    Secrius - Multipurpose Services Company HTML Template
+    Author:         raistheme
+    Author URI:     https://themeforest.net/user/raistheme
+    Version:        1.0.0 
+    Text Domain:    secrius 
+
+============================================================== */
+
+
+/*
+==================== TABLE OF CONTENTS ===================
+
+(1) == Home Two Header Top
+(2) == Home Two Top Menu
+(3) == Secrius Hero Two
+(4) == Home Two Promo
+(5) == Home Two About
+(6) == Home Two Provide
+(7) == Home Two Reliable
+(8) == Home Two Secrius Details
+(9) == Home Two Testimonial
+(10) == Team
+(11) == Footer
+(12) == Copy Right
+
+============================================================*/
+
+
+/*
+========================================
+   Home Two Header Top
+========================================
+*/
+
+.header-two {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(21, 35, 72, 1)), color-stop(46%, rgba(21, 35, 72, 1)));
+    background: -o-linear-gradient(top, rgba(21, 35, 72, 1) 44%, rgba(21, 35, 72, 1) 46%);
+    background: linear-gradient(180deg, rgba(21, 35, 72, 1) 44%, rgba(21, 35, 72, 1) 46%);
+    padding: 20px 0 60px;
+    border-bottom: 1px dashed #1e61b7;
+}
+
+.logo-homeTwo {}
+
+.logo-homeTwo img {}
+
+.homeTwo-top-call-content {
+    float: right;
+}
+
+.homeTwo-top-call {
+    padding-top: 15px;
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 50px;
+}
+
+.homeTwo-top-call::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: -27px;
+    width: 2px;
+    height: 92%;
+    background-color: #2d395b;
+}
+
+.homeTwo-top-call:nth-child(3n+1)::before {
+    display: none;
+}
+
+.homeTwo-top-call:nth-child(3n+1) {
+    margin: 0;
+}
+
+.homeTwo-top-call:nth-child(3n+2) {}
+
+.homeTwo-top-call:nth-child(3n+3) {}
+
+.homeTwo-top-call img {
+    margin-right: 13px;
+}
+
+.homeTwo-top-call-text {}
+
+.homeTwo-top-call-text h6 {
+    font-size: 12px;
+    color: #1e61b7;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.homeTwo-top-call-text span {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/*
+========================================
+   Home Two Top Menu
+========================================
+*/
+.menu-2 {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    top: 102px;
+}
+
+.menu-2 .navbar-collapse {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#004a9a), to(#0f5fb5));
+    background-image: -o-linear-gradient(bottom, #004a9a 0%, #0f5fb5 100%);
+    background-image: linear-gradient(0deg, #004a9a 0%, #0f5fb5 100%);
+    padding-right: 0;
+
+}
+
+.menu-2 #cssmenu ul li a {
+    color: #fff;
+}
+
+.menu-2 #cssmenu li li a {
+    color: #014c9c;
+}
+
+.menu-right {}
+
+.shopping-bag {
+    padding-right: 20px;
+}
+
+.shopping-bag .cart {
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+#shop-cut {
+    background: red;
+    font-size: 11px;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 3px 0;
+    top: -8px;
+    left: 9px;
+}
+
+button.icon-btn {
+    outline: none;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.shopping-bag {
+    padding-right: 16px;
+    position: relative;
+    border-right: 2px solid #0d4282;
+}
+
+.search-dropdown.show {
+    position: relative;
+}
+
+.cart-list {
+    width: 240px;
+    padding: 0;
+    right: 0;
+    left: unset;
+    top: 45px;
+}
+
+.cart-list-item {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0;
+    padding: 10px 10px;
+}
+
+.cart-list .photo {
+    display: inline-block;
+    float: left;
+}
+
+.cart-list img {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+}
+
+.cart-list h6 {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.cart-list h6 a {
+    color: #3f4b5a;
+}
+
+.cart-list h6 a:hover {
+    color: #3452ff !important;
+}
+
+.total {
+    background: #dedede;
+    padding: 13px 10px;
+    overflow: hidden;
+}
+
+span.pull-right {}
+
+.btn-cart {
+    float: right;
+    padding: 3px 22px;
+}
+
+.btn-home-2 {
+    font-size: 14px;
+    background: #c21523;
+    padding: 35px 30px;
+    line-height: 1;
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-home-2:hover {
+    color: #010100;
+}
+
+.btn-home-2.hover-effect:before,
+.btn-home-2.hover-effect:after {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fbb101), to(#f7cf1f));
+    background-image: -o-linear-gradient(top, #fbb101 0%, #f7cf1f 100%);
+    background-image: linear-gradient(180deg, #fbb101 0%, #f7cf1f 100%);
+}
+
+.search-dropdown {
+    margin-right: 18px;
+}
+
+.search-dropdown .dropdown-menu-right {
+    width: 250px;
+    padding: 20px;
+    top: 58px;
+}
+
+.search-dropdown .dropdown-menu-right .search-input {
+    width: 100%;
+    height: 40px;
+    padding: 0 30px 0 10px;
+}
+
+.search-dropdown .dropdown-menu-right .search-btn {
+    position: absolute;
+    right: 25px;
+    border: 0;
+    background: none;
+    outline: none;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*
+========================================
+    Secrius Hero Two
+========================================
+*/
+
+.home-tow-hero {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(38%, rgba(21, 35, 72, 1)), color-stop(89%, rgba(7, 59, 116, 1)));
+    background: -o-linear-gradient(top, rgba(21, 35, 72, 1) 38%, rgba(7, 59, 116, 1) 89%);
+    background: linear-gradient(180deg, rgba(21, 35, 72, 1) 38%, rgba(7, 59, 116, 1) 89%);
+    overflow: hidden;
+}
+
+.hero-2-slider {}
+
+.hero-2-item {
+    position: relative;
+}
+
+.hero-2-item .container {
+    position: relative;
+}
+
+.hero-tow-img {}
+
+img.hero-tow-img-one {
+    position: absolute;
+    width: auto !important;
+    bottom: 0;
+    left: 0;
+}
+
+img.hero-tow-img-two {
+    position: absolute;
+    width: 40% !important;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-two-text {
+    padding: 170px 0 350px;
+}
+
+.hero-two-text h6 {
+    font-size: 24px;
+    color: #327edd;
+    font-weight: 600;
+}
+
+.hero-tow-title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 0 35px;
+}
+
+.hero-two-text p {
+    color: #c5c8da;
+}
+
+.hero-two-text span {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    display: block;
+    padding: 20px 0 30px;
+}
+
+.hero-two-text strong {
+    color: #f7cf20;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.hero-two-text .btn-1 {
+    text-transform: uppercase;
+}
+
+.hero-2-slider .owl-nav {
+    margin-top: 0;
+
+}
+
+.hero-2-slider .owl-nav [class*=owl-] {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: #c21523 !important;
+    color: #fff !important;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 0;
+
+}
+
+.hero-2-slider:hover .owl-nav [class*=owl-] {
+    opacity: 1;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    outline: none;
+}
+
+button {
+    outline: none;
+
+}
+
+.hero-2-slider .owl-next {
+    right: 0;
+}
+
+.hero-2-slider:hover .owl-next {
+    right: 3%;
+}
+
+.hero-2-slider .owl-prev {
+    left: 0;
+}
+
+.hero-2-slider:hover .owl-prev {
+    left: 3%;
+}
+
+/*
+========================================
+    Home Two Promo
+========================================
+*/
+
+.home-tow-promo {
+    border-bottom: 1px solid #e1e1e1;
+}
+.home-tow-promo-col{
+    padding: 0;
+}
+.home-tow-promo-col:nth-child(4n+1) {}
+
+.home-tow-promo-col:nth-child(4n+1) .home-tow-hero-item {
+    border-left: 1px solid #e1e1e1;
+}
+
+.home-tow-hero-item {
+    text-align: center;
+    padding: 70px 0 60px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.home-tow-hero-item img {}
+
+.home-tow-hero-item h6 {
+    font-size: 20px;
+    color: #051d3e;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.home-tow-hero-item:hover h6 {
+    color: #fff;
+}
+
+.home-tow-hero-item .svg-icon {
+    -webkit-filter: invert(60%) sepia(19%) saturate(5962%) hue-rotate(201deg) brightness(95%) contrast(94%);
+    filter: invert(60%) sepia(19%) saturate(5962%) hue-rotate(201deg) brightness(95%) contrast(94%);
+}
+
+.home-tow-hero-item:hover .svg-icon,
+.svg-icon:focus {
+    -webkit-filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(354deg) brightness(104%) contrast(101%);
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(354deg) brightness(104%) contrast(101%);
+}
+
+/*
+========================================
+    Home Two About
+========================================
+*/
+.home-two-about {}
+
+
+.home-two-about-content .blue { 
+}
+
+
+.home-two-about-contact {
+    padding-top: 27px;
+}
+
+.home-two-about-contact i {
+    background: #c5212e;
+    color: #fff;
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 100px;
+    border: 7px solid #f3d3d5;
+    margin-right: 20px;
+}
+
+
+
+.home-two-about-contact-text .text {
+    font-size: 18px;
+    color: #152545;
+}
+
+.home-two-about-contact-text .number {
+    font-size: 24px;
+    color: #c5212e;
+    font-weight: 600;
+}
+
+.home-two-about-img img {
+    width: 100%;
+    height: auto;
+}
+
+/*
+========================================
+    Home Two About
+========================================
+*/
+.home-two-provide {
+    background-image: url(../img/feature-bg.jpg);
+    position: relative;
+}
+
+.home-two-provide::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 29, 62, 0.5);
+}
+
+.home-two-provide .hading-title {
+    color: #fff;
+}
+
+.home-two-provide .section-title p {
+    color: #fff;
+}
+
+.home-two-provide .section-title {
+    margin-bottom: 30px;
+}
+
+.home-two-provide-item {
+    text-align: center;
+    position: relative;
+    margin: 40px 5px 0;
+}
+
+.home-two-provide-item img {
+    border-radius: 100%;
+}
+
+
+.home-two-provide-item-text {
+    position: absolute;
+    width: 100%;
+    bottom: 9px;
+    z-index: 1;
+}
+
+.home-two-provide-item .text {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #1e61b7;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 90% 100%, 10% 100%);
+    clip-path: polygon(0 0, 100% 0%, 90% 100%, 10% 100%);
+    padding: 15px 0;
+    position: relative;
+
+}
+
+.home-two-provide-item .home-two-provide-item-text::before {
+    content: '';
+    position: absolute;
+    left: -3px;
+    bottom: -19px;
+    width: 47px;
+    height: 47px;
+    background-color: #1e61b7;
+    -webkit-clip-path: polygon(0 0%, 100% 0, 88% 50%, 100% 99%, 0 100%, 21% 50%);
+    clip-path: polygon(0 0%, 100% 0, 88% 50%, 100% 99%, 0 100%, 21% 50%);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.home-two-provide-item .home-two-provide-item-text::after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    bottom: -19px;
+    width: 47px;
+    height: 47px;
+    background-color: #1e61b7;
+    -webkit-clip-path: polygon(0 0%, 100% 0, 88% 50%, 100% 99%, 0 100%, 21% 50%);
+    clip-path: polygon(0 0%, 100% 0, 88% 50%, 100% 99%, 0 100%, 21% 50%);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.home-tow-testimonial-slider .owl-dots .owl-dot.active span,
+.home-tow-testimonial-slider .owl-dots .owl-dot:hover span {
+    background: #1e61b7;
+}
+
+/*
+========================================
+    Home Two Reliable
+========================================
+*/
+
+.reliable-logo {
+    margin-top: 40px;
+}
+
+.reliable-logo li {
+    display: inline-block;
+    padding-right: 45px;
+}
+
+.reliable-logo li a {}
+
+
+/*
+========================================
+    Home Two Secrius Details
+========================================
+*/
+
+.security-img {
+    background-image: url(../img/security.jpg);
+    padding: 190px 0;
+    text-align: center;
+    margin: 20px 0 25px;
+}
+
+.security-img i {
+    font-size: 80px;
+    color: #c21523;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.security-img:hover i {
+    color: #1f65bd;
+}
+
+.home-tow-testimonial-slider .owl-nav.disabled+.owl-dots {
+    margin-top: 40px;
+}
+
+/*
+========================================
+    Home Two Secrius Details
+========================================
+*/
+.home-tow-testimonial-area {
+    background-image: url(../img/testimonial-bg.jpg);
+    position: relative;
+}
+
+.home-tow-testimonial-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 29, 62, 0.829);
+}
+
+.home-tow-testimonial-area .hading-title {
+    color: #fff;
+    text-align: center;
+}
+
+.home-tow-testimonial-slider {
+    padding-top: 40px;
+}
+
+.home-tow-testimonial-item {
+    text-align: center;
+}
+
+.home-tow-testimonial-item i {
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #1e61b7;
+    width: 78px;
+    height: 88px;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 50% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 50% 100%, 50% 75%, 0% 75%);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.home-tow-testimonial-item h4 { 
+    color: #ffffff;
+    font-weight: 400;
+    padding: 20px 0 30px;
+    font-style: italic;
+}
+
+.testimonial-name {}
+
+.testimonial-name img {
+    width: 80px !important;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.testimonial-name span {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    display: block;
+    padding-top: 18px;
+}

@@ -1,0 +1,414 @@
+/* ============================================================
+    [Master Stylesheet]
+
+    Theme Name:     Secrius 
+    Theme URI:      https://themeforest.net/user/raistheme
+    Description:    Secrius - Multipurpose Services Company HTML Template
+    Author:         raistheme
+    Author URI:     https://themeforest.net/user/raistheme
+    Version:        1.0.0 
+    Text Domain:    secrius 
+
+============================================================== */
+
+
+/*
+==================== TABLE OF CONTENTS ===================
+
+(1) == Home Three Header Top
+(2) == Home Three Top Menu
+(3) == Secrius Hero Three
+(4) == Home Three Promo
+(5) == Home Three Choose
+(6) == Home Three History
+(7) == Footer 
+
+============================================================*/
+/*
+========================================
+   Home Three Header Top
+========================================
+*/
+
+.header-three {
+    background: #fff;
+    padding: 20px 0 60px;
+    border-bottom: 0;
+}
+
+.logo-homeTwo {}
+
+.logo-homeTwo img {}
+
+.homeThree-call {
+    padding-top: 16px;
+}
+
+.homeThree-call img {
+    margin-right: 13px;
+}
+
+.homeThree-call-text {}
+
+.homeThree-call-text span {
+    font-size: 14px;
+    color: #051d3e;
+}
+
+.header-three .homeTwo-top-call-text span {
+    font-size: 14px;
+    color: #051d3e;
+}
+
+.header-three .homeTwo-top-call::before {
+    background-color: #e6e8eb;
+}
+
+/*
+========================================
+   Home Three Top Menu
+========================================
+*/
+
+/*
+========================================
+   Secrius Hero Three
+========================================
+*/
+
+.home-three-hero {}
+
+.hero-three-slider {}
+
+.hero-bg-three-one {
+    background-image: url(../img/hero-bg-three1.jpg);
+}
+
+.hero-bg-three-two {
+    background-image: url(../img/hero-bg-three2.jpg);
+}
+
+.hero-three-item {
+    background-position: center bottom;
+    position: relative;
+}
+
+.hero-three-item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(11, 29, 65, 0.692);
+}
+
+.hero-three-text {
+    color: #fff;
+    padding: 182px 0 320px;
+}
+
+.hero-three-text h6 {}
+
+.hero-three-title {
+    font-size: 48px;
+    padding: 30px 0 40px;
+    text-transform: uppercase;
+    line-height: 72px;
+}
+
+.hero-three-text .btn-1 {
+    text-transform: uppercase;
+}
+
+.home-three-hero .owl-nav {
+    margin-top: 0;
+
+}
+
+.home-three-hero .owl-nav [class*=owl-] {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: #c21523 !important;
+    color: #fff !important;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+
+}
+
+.home-three-hero:hover .owl-nav [class*=owl-] {
+    opacity: 1;
+}
+
+.home-three-hero .owl-next {
+    right: 0;
+}
+
+.home-three-hero:hover .owl-next {
+    right: 3%;
+}
+
+.home-three-hero .owl-prev {
+    left: 0;
+}
+
+.home-three-hero:hover .owl-prev {
+    left: 3%;
+}
+
+/*
+========================================
+  Home Three Promo
+========================================
+*/
+
+.home-three-promo {}
+
+.home-three-promo-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.home-three-promo-item h3 {
+    color: #051d3e;
+    border-left: 1px solid #c21523;
+    padding-left: 30px;
+    position: relative;
+}
+
+.home-three-promo-item img {
+    width: 100%;
+}
+
+.home-three-promo-text {
+    text-align: center;
+    color: #ffffff;
+    padding: 0 40px;
+    background-color: #1e61b7;
+    position: absolute;
+    left: 0;
+    top: 68%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease 0s;
+}
+
+.home-three-promo-item:hover .home-three-promo-text {
+    top: 0%;
+    padding-top: 15px;
+}
+
+.home-three-promo-text h6 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 0;
+}
+
+.home-three-promo-text p {
+    font-size: 14px;
+    margin-bottom: -60px;
+}
+
+
+
+.home-three-promo-item:hover .home-three-promo-text p {}
+
+/*
+========================================
+  Home Three About
+========================================
+*/
+
+.home-three-about {
+    position: relative;
+}
+
+.home-three-about-contact {
+    padding-top: 30px;
+}
+
+.home-three-about-content .blue {
+    padding: 30px 0 15px;
+}
+
+.home-three-about-content .btn-1 {
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.home-three-about-right {
+    background-color: #0e59a9;
+    color: #fff;
+    padding: 60px 40px 40px;
+    border-radius: 5px;
+}
+
+.home-three-about-right i {
+    font-size: 36px;
+}
+
+.home-three-about-right p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 0 24px;
+}
+
+.three-about-author {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.three-about-author span {
+    font-weight: 400;
+    display: block;
+}
+
+.home-three-about-right img {}
+
+.home-three-about-img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.home-three-about-img img {
+    width: 88%;
+}
+
+/*
+========================================
+  Home Three Choose
+========================================
+*/
+.home-three-choose {
+    background-image: url(../img/feature-bg.jpg);
+    position: relative;
+}
+
+.home-three-choose::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 29, 62, 0.5);
+}
+
+.home-three-choose .section-title {
+    color: #fff;
+    padding-bottom: 28px;
+}
+
+.home-three-choose-item {
+    color: #fff;
+    background-color: rgba(5, 29, 62, 0.842);
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.home-three-choose-item i {
+    font-size: 60px;
+}
+
+.home-three-choose-item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 35px 0 18px;
+}
+
+.home-three-choose-item p {
+    font-size: 15px;
+}
+
+/*
+========================================
+  Home Three History
+========================================
+*/
+
+.home-three-history-area {
+    background-color: #ebf2f5;
+}
+
+.home-three-history-video {
+    background-image: url(../img/security.jpg);
+    padding: 190px 0;
+    text-align: center;
+}
+
+.home-three-history-video i {
+    font-size: 80px;
+    color: #c21523;
+    transition: all 0.3s ease 0s;
+}
+
+.home-three-history-video:hover i {
+    color: #1f65bd;
+}
+
+.home-three-history-item {
+    padding-bottom: 40px;
+}
+
+.history-title {
+    font-size: 36px;
+    color: #051d3e;
+    font-weight: 600;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+.home-three-history-item p {
+    color: #7f7f7f;
+}
+
+.home-three-logo {}
+
+.home-three-logo h4 {
+    background: #fff;
+}
+
+
+/*
+========================================
+  Footer
+========================================
+*/
+
+.home-footer-right {
+    text-align: right;
+}
+
+.home-footer-right-title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.home-footer-right-title strong {
+    font-weight: 700;
+    color: #f7cf20;
+}
+
+.home-footer-right img {}
+
+#footer-area hr {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.521);
+    margin: 40px 0 0;
+}

@@ -1,0 +1,424 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/* ============================================================
+    [Master Stylesheet]
+
+    Theme Name:     Secrius 
+    Theme URI:      https://themeforest.net/user/raistheme
+    Description:    Secrius - Multipurpose Services Company HTML Template
+    Author:         raistheme
+    Author URI:     https://themeforest.net/user/raistheme
+    Version:        1.0.0 
+    Text Domain:    secrius 
+
+============================================================== */
+
+
+
+
+/*
+========================================
+    Top Widget
+========================================
+*/
+
+.top-widget-area {
+    background-color: #0b1d41;
+    padding: 12px 0;
+}
+
+.top-widget-social {}
+
+.top-widget-social ul {}
+
+.top-widget-social ul li {
+    display: inline-block;
+
+}
+
+.top-widget-social ul li a {
+    font-size: 14px;
+    color: #fff;
+    padding: 0 7px;
+}
+
+.top-widget-right-nav {
+    text-align: right;
+}
+
+.top-widget-right-nav ul {}
+
+.top-widget-right-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+.top-widget-right-nav li:nth-child(1)::before {
+    display: none;
+}
+
+.top-widget-right-nav li::before {
+    content: '|';
+    color: #fff;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.top-widget-right-nav li a {
+    font-size: 12px;
+    color: #fff;
+}
+
+
+/*
+========================================
+    Home Header Top
+========================================
+*/
+
+.header-five {
+    padding-bottom: 55px;
+}
+.header-five .homeTwo-top-call-content {
+    float: left;
+}
+.header-five .homeTwo-top-call {
+    padding-top: 20px; 
+}
+.header-five .logo-homeTwo{
+    margin-top: 16px;
+}
+.header-five .homeTwo-top-call::before{
+    display: none;
+}
+.header-five .homeTwo-top-call-text span { 
+    color: #051d3e;
+}
+
+/*
+========================================
+    Home Top Menu
+========================================
+*/
+.menu-5 {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    top: 134px;
+}
+
+.menu-5 #cssmenu {
+    padding: 0;
+}
+
+.menu-5 .navbar-collapse {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#004a9a), to(#0f5fb5));
+    background-image: -o-linear-gradient(bottom, #004a9a 0%, #0f5fb5 100%);
+    background-image: linear-gradient(0deg, #004a9a 0%, #0f5fb5 100%);
+    padding: 0 26px;
+}
+
+.menu-5 #cssmenu ul li a {
+    color: #fff;
+}
+
+.menu-5 #cssmenu li li a {
+    color: #014c9c;
+}
+
+
+/*
+========================================
+    Hero
+========================================
+*/
+.hero-five-area {
+    position: relative;
+    background-image: url(../img/hero-bg-5.jpg);
+}
+
+.hero-five-area::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -o-linear-gradient(4deg, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.0) 72%);
+    background: linear-gradient(86deg, rgba(255, 255, 255, 0.6) 47%, rgba(255, 255, 255, 0.0) 72%);
+}
+
+.hero-five-content {
+    padding: 200px 0 280px;
+}
+
+.hero-five-title {}
+
+.hero-five-title span {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 16px;
+    margin-bottom: 10px;
+}
+
+.hero-five-title span:nth-child(2n+1) {
+    color: #fff;
+    background-color: #0b1d41;
+
+}
+
+.hero-five-title span:nth-child(2n+2) {
+    color: #0b1d41;
+    background-color: #fff;
+}
+
+.hero-five-content p {
+    line-height: 28px;
+    font-weight: 600;
+    padding: 35px 0;
+}
+
+.hero-five-call {
+    border-radius: 50px;
+    background-color: #c21523;
+    display: inline-block;
+}
+
+.hero-five-call i {
+    width: 77px;
+    height: 77px;
+    border-radius: 39px;  
+    font-size: 30px;
+    color: #0b1d41s;
+    text-align: center;
+    padding: 22px 0;
+}
+
+.hero-fiver-call-text {
+    padding: 6px 39px 0 19px;
+}
+
+.hero-fiver-call-text h6 {
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.hero-fiver-call-text span {
+    font-size: 26px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/*
+========================================
+    Promo
+========================================
+*/
+.promo-five {
+    -webkit-transform: unset;
+        -ms-transform: unset;
+            transform: unset;
+    margin: -132px 0 0;
+}
+
+/*
+========================================
+    About
+========================================
+*/
+.home-five-about {
+    position: relative;
+}
+
+.home-five-about-img {
+    position: absolute;
+    bottom: 0;
+    left: 59%;
+}
+
+.home-five-about-img img {
+    width: 88%;
+}
+ 
+
+/*
+========================================
+    Choose
+========================================
+*/
+.home-five-choose {
+    background-image: url(../img/feature-bg.jpg);
+    position: relative;
+}
+
+.home-five-choose::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.home-five-choose-item { 
+    color: #fff;
+    background-color: #1f65bd;
+    text-align: center;
+    padding: 0 35px 40px;
+    margin-top: 40px;
+}
+ 
+.home-five-choose-item .home-five-choose-item-icon {
+    background: #fff;
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+    margin: 80px auto -30px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    border: 1px solid #1f65bd;
+}
+.home-five-choose-item .home-five-choose-item-icon i {
+    font-size: 50px;
+    color: #1f65bd;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+ 
+.home-five-choose-item h4 {
+    text-transform: uppercase;
+    padding: 0px 0 20px;
+}
+
+
+/*
+========================================
+    Reliable
+========================================
+*/
+
+.reliable-five {}
+
+.reliable-five .feature-right-title {
+    color: #fff;
+}
+
+.reliable-five .feature-right p {
+    color: #b7b7b7;
+}
+
+.reliable-five {}
+
+/*
+========================================
+    Team
+========================================
+*/
+
+.team-five {
+    background-image: url(../img/testimonial-bg.jpg);
+    position: relative;
+}
+
+.team-five::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 29, 62, 0.829);
+}
+
+.team-five .section-title {
+    color: #fff;
+}
+
+
+
+/*
+========================================
+   News 
+========================================
+*/
+
+.news-five {}
+
+.news-five .logo-footer-title h4 {
+    background: #fff;
+}
+
+/*
+========================================
+    Secrius Details
+========================================
+*/
+
+.clients-testimonial-five{
+    background-color: #ebf2f5;
+}
+.clients-testimonial-five h4 {
+    background-color: #1f65bd;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
+.clients-testimonial-five h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    width: 30px;
+    height: 30px;
+    background: #1f65bd;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    text-align: center;
+    margin: 0 auto;
+    z-index: -1;
+}
+.clients-testimonial-five-item {
+    padding: 30px 30px 0;
+}
+.clients-testimonial-five-item h6 {
+    font-style: italic;
+    font-weight: 600;
+}
+.clients-testimonial-five-item p {
+    font-style: italic;
+}
+.clients-testimonial-five-text {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 30px;
+}
+.clients-testimonial-five-text img {
+    width: 60px;height: 60px;border-radius: 100px; margin-right: 15px;
+}
+.clients-testimonial-five-text i {
+    color: #1f65bd;
+}
+.clients-testimonial-five-text .text {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+.clients-testimonial-five-item:nth-last-child(1) .clients-testimonial-five-text{
+    border-bottom: 0;
+}

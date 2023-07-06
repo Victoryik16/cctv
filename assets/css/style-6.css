@@ -1,0 +1,289 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/* ============================================================
+    [Master Stylesheet]
+
+    Theme Name:     Secrius 
+    Theme URI:      https://themeforest.net/user/raistheme
+    Description:    Secrius - Multipurpose Services Company HTML Template
+    Author:         raistheme
+    Author URI:     https://themeforest.net/user/raistheme
+    Version:        1.0.0 
+    Text Domain:    secrius 
+
+============================================================== */
+
+
+
+
+/*
+========================================
+    Secrius Hero
+========================================
+*/
+.six-title{
+    margin: -12px 0;
+    padding-bottom: 30px;
+}
+.six-title span {
+    color: #ed1b2d;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.secrius-hero-six{}
+.call-six {
+    font-size: 60px;
+    color: #f7cd1f;
+    font-family: 'Playfair Display', serif;
+    margin: -15px 0 0px;
+    padding-bottom: 40px;
+}
+.secrius-hero-six .secrius-hero-left .btn-4 {
+    margin-bottom: 30px;
+}
+.secrius-hero-six .secrius-hero-form { 
+    height: auto;
+    padding: 40px 30px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.services-list-six {
+    margin-bottom: 20px;
+}
+.services-list-six li {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.services-list-six li::before {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 free';
+    font-weight: 900;
+    margin-right: 12px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.secrius-hero-six .secrius-hero-cc-img .img-3 { 
+    left: 36%;
+}
+/*
+========================================
+    About
+========================================
+*/
+
+.about-six-title{
+    padding-bottom: 30px;
+}
+
+.about-six-list{}
+
+.about-six-list li {
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.about-six-list li::before {
+    left: 0;
+    content: "\f058";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    background: unset;
+    top: 0;
+    color: #6bbbf0;
+    margin-right: 10px;
+}
+
+.about-six-services{
+    overflow: hidden;
+}
+
+.about-six-services li {
+    margin-bottom: 20px;
+}
+
+.about-six-services-img {
+    background-color: #e0e0e0;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.about-six-services img {
+    -webkit-filter: invert(56%) sepia(1%) saturate(0%) hue-rotate(324deg) brightness(91%) contrast(90%);
+            filter: invert(56%) sepia(1%) saturate(0%) hue-rotate(324deg) brightness(91%) contrast(90%);
+    padding: 13px 0;
+}
+
+.about-six-services p {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-weight: 600;
+}
+
+/*
+========================================
+    Cta
+========================================
+*/
+.cta-six-area{ }
+
+.cta-six-content{
+    padding-top: 100px;
+    border-top: 1px dashed #ccc;
+   
+}
+.cta-text{
+    position: relative;
+ }
+.cta-text img {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 100px;
+}
+.cta-text h4 {
+    background-image: -o-linear-gradient(179deg, #032b67 0%, #000723 100%);
+    background-image: linear-gradient(-89deg, #032b67 0%, #000723 100%);
+    -webkit-clip-path: polygon(100% 0, 95% 51%, 100% 100%, 0 100%, 5% 50%, 0 0);
+            clip-path: polygon(100% 0, 95% 51%, 100% 100%, 0 100%, 5% 50%, 0 0);
+    color: #fff;
+    padding: 20px 0;
+    padding-left: 300px;
+}
+.cta-text h4 span {
+    font-size: 30px;
+    color: #f7cd1f;
+}
+ 
+
+
+/*
+========================================
+    Provide
+========================================
+*/
+
+.six-provide-area {
+    background-image: url(../img/feature-bg.jpg);
+    position: relative;
+}
+
+.six-provide-area::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 29, 62, 0.623);
+}
+
+.six-provide-area .section-title {
+    padding-bottom: 30px;
+}
+
+.six-provide-area h3.six-title{
+    color: #fff;
+}
+.six-provide-area p{
+    color: #fff;
+} 
+
+/*
+========================================
+    Testimonial
+========================================
+*/
+.six-testimonial-area{
+    color: #fff;
+    background-image: -o-linear-gradient(179deg, #032b67 0%, #000723 100%);
+    background-image: linear-gradient(-89deg, #032b67 0%, #000723 100%);
+}
+.six-testimonial-area .section-title{
+    padding-bottom: 50px;
+}
+ 
+.six-testimonial-slider{}
+.six-testimonial-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.six-testimonial-icon{
+    margin-right: 30px;
+}
+.six-testimonial-icon i {
+    background-color: #6bbbf0;
+    font-size: 24px;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+.six-testimonial-icon i:before { 
+    position: relative;
+    top: 30%;
+}
+.six-testimonial-icon i::after {
+    content: '';
+    position: absolute;
+    right: -16px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background: #6bbbf0;
+    width: 20px;
+    height: 20px;
+    -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+            clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.six-testimonial-item p {}
+.six-testimonial-item ul {
+    padding: 35px 0 20px;
+    position: relative;
+}
+.six-testimonial-item ul::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 60%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 70%;
+    height: 1px;
+    background-color: #fff;
+}
+.six-testimonial-item li {
+    display: inline-block;
+    font-size: 14px;
+    color: #ff8b03;
+    padding-right: 5px;
+}
+.six-testimonial-item h6 {} 
+
+.six-testimonial-slider .owl-dots .owl-dot.active span, .six-testimonial-slider .owl-dots .owl-dot:hover span {
+    background: #1e61b7;
+}
+.six-testimonial-slider .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}

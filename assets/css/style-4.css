@@ -1,0 +1,843 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/* ============================================================
+    [Master Stylesheet]
+
+    Theme Name:     Secrius 
+    Theme URI:      https://themeforest.net/user/raistheme
+    Description:    Secrius - Multipurpose Services Company HTML Template
+    Author:         raistheme
+    Author URI:     https://themeforest.net/user/raistheme
+    Version:        1.0.0 
+    Text Domain:    secrius 
+
+============================================================== */
+
+/*
+========================================
+    Header Top
+========================================
+*/
+
+
+.header-four {
+    background-color: #1a1c21;
+    padding: 20px 0;
+}
+
+.header-four-col:nth-child(2n+1) {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+.header-four-social {
+    text-align: right;
+}
+
+.header-four-social li {
+    display: inline-block;
+}
+
+.header-four-social li a {
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    padding: 0 8px;
+}
+
+.header-four-social li a:hover {
+    color: #e0382d;
+}
+
+.header-four-contact {
+    text-align: right;
+}
+
+.header-four-contact span {
+    font-size: 12px; 
+    color: #fff;
+    margin-right: 15px;
+}
+
+.header-four-contact .btn-4 {}
+.header-four-contact .btn-4:hover {
+    background-color: #fff;
+    color: #e0382d;
+}
+
+/*
+========================================
+    Top Menu
+========================================
+*/
+
+.menu-4 {}
+
+.menu-4 .navbar {
+    padding: 0rem 1rem;
+}
+
+.header-logo {}
+
+.menu-4 .logo:before {
+    content: '';
+    position: absolute;
+    background: #e0382d;
+    width: 37%;
+    height: 175px;
+    left: 0;
+    top: -108%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    z-index: -1;
+}
+
+.menu-4 .header-logo {
+    position: relative;
+    top: -42px;
+}
+
+.menu-4 button.icon-btn,
+.menu-4 .shopping-bag .cart {
+    color: #1e2126;
+}
+
+.menu-4 #shop-cut {
+    color: #fff;
+}
+
+.menu-4 .menu-right {
+    padding-left: 50px;
+}
+
+.menu-4 .search-dropdown {
+    margin-right: 0px;
+}
+
+.menu-4 .navbar-nav li::before {
+    display: none;
+}
+
+.menu-4 #cssmenu ul li a {
+    margin: 0px 13px;
+}
+.menu-4 .shopping-bag{
+    border: 0;
+}
+
+/*
+========================================
+    Secrius Hero
+========================================
+*/
+.secrius-four-hero {
+    position: relative;
+    background-image: url(../img/hero-bg-4.jpg);
+}
+
+.secrius-four-hero::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11, 17, 39, 0.788);
+}
+
+.secrius-four-hero-content {
+    padding: 200px 0;
+    color: #ffffff;
+}
+
+.secrius-four-hero-content p {
+    font-size: 24px;
+}
+
+.secrius-four-hero-content h1 {
+    font-size: 67px; 
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 18px 0 40px;
+    line-height: 1.1;
+}
+
+.secrius-four-hero-promo {
+    padding-bottom: 40pxf;
+}
+
+.secrius-four-hero-promo-item {
+    margin-bottom: 70px;
+}
+
+.secrius-four-hero-promo-item img {
+    margin-right: 20px;
+}
+
+.secrius-four-hero-promo-item-text {}
+
+.secrius-four-hero-promo-item-text h5 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: -7px;
+    padding-bottom: 10px;
+}
+
+.secrius-four-hero-promo-item-text p {
+    color: #fff; 
+}
+
+
+
+/*
+========================================
+    About
+========================================
+*/
+.about-four-area {}
+
+.about-four-text {}
+
+.about-four-text .hading-title {
+    padding-bottom: 40px;
+}
+
+.about-four-text p {}
+
+.about-four-text .list-icons {}
+
+.about-four-text .list-icons li::before {
+    left: 0;
+    content: "\f058";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    background: unset;
+    top: 0;
+    color: rgb(224, 56, 45);
+}
+
+.red-p {
+    font-size: 20px;
+    color: rgb(224, 56, 45);
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+/*
+========================================
+    Counter
+========================================
+*/
+
+.counter-four-area {}
+
+.counter-four-content {
+    border: 3px dashed #9b9da9;
+    padding: 45px 20px;
+}
+
+.counter-four-item {
+    text-align: center;
+}
+
+.counter-four-item img {}
+
+.counter-text {
+    padding: 17px 0 4px;
+}
+
+.counter-text span {
+    font-size: 24px;
+    color: #e0382d;
+    font-weight: 600;
+    text-align: center;
+}
+
+.counter-four-item p {}
+
+/*
+========================================
+    About Col
+========================================
+*/
+.about-col {
+    overflow: hidden;
+    background-color: #e0382d;
+}
+
+.aboutCol {
+    padding: 0;
+    color: #fff;
+
+}
+
+.aboutCol:nth-child(4n+2) {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+.aboutCol:nth-child(4n+2) .about-col-item {
+    padding: 10px 45px;
+}
+
+.aboutCol:nth-child(4n+4) {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+.aboutCol:nth-child(4n+4) .about-col-item {
+    padding: 10px 45px;
+}
+
+
+.about-col-item {}
+
+.about-col-item img {
+    width: 100%;
+}
+
+.about-col-item h3 {
+    font-size: 30px; 
+    font-weight: 600;
+    padding-bottom: 22px;
+    line-height: 1.1;
+}
+
+.about-col-item p { 
+    font-size: 15px;
+}
+
+/*
+========================================
+    services
+========================================
+*/
+.services-four-area {
+    position: relative;
+    background-image: url(../img/services-four-bg.jpg);
+}
+
+.services-four-area .section-title {
+    color: #fff;
+}
+
+.services-four-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 19, 32, 0.781);
+}
+
+.services-four-content {
+    padding-top: 35px;
+}
+
+.services-four-item {
+    margin-top: 30px;
+    margin-bottom: -55px;
+}
+
+.services-four-item img {
+    width: 100%;
+    height: auto;
+}
+
+.services-four-item h3 {
+    font-size: 18px; 
+    color: #1e2126;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.services-four-item:hover h3 { 
+    color: #fff; 
+    background-color: #e0382d;
+}
+
+/*
+========================================
+    Video
+========================================
+*/
+.video-four-area {
+    background: #ebf2f5;
+}
+
+.video-four-content {}
+
+.video-four-content h3 {
+    padding-bottom: 28px;
+    margin: -15px 0;
+}
+
+.video-four-content p {}
+
+.video-four-content ul {}
+
+.video-four-content ul li {
+    padding-top: 25px;
+}
+
+.video-four-content ul li img {
+    margin-right: 14px;
+    padding-top: 6px;
+}
+
+.video-four-content ul li p { 
+    color: #051d3e;
+    font-weight: 500;
+    font-style: 15px;
+}
+
+.video-four-img {}
+
+.video-four-img img {
+    width: 100%;
+    height: auto;
+}
+
+.video-four-img a {
+    font-size: 80px; 
+    color: #c21523;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 100px;
+    line-height: 0;
+}
+
+/*
+========================================
+    Top Header
+========================================
+*/
+
+.team-four-item {
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(0 0 12.5px rgba(0, 0, 0, 0.04));
+    filter: drop-shadow(0 0 12.5px rgba(0, 0, 0, 0.04));
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.team-item-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.team-item-img img {
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.team-four-item:hover .team-item-img img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.team-social {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(224, 57, 45, 0.699);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.team-four-item:hover .team-social {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.team-social-icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.team-social-icon li {}
+
+.team-social-icon li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px; 
+    line-height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    margin: 4px 0;
+    padding: 5px 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.2s ease-out 0.4s;
+    -o-transition: all 0.2s ease-out 0.4s;
+    transition: all 0.2s ease-out 0.4s;
+}
+
+.team-four-item:hover .team-social-icon li a {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.team-social-icon li:nth-child(1) a {
+    color: #3a559f;
+}
+
+.team-social-icon li:nth-child(2) a {
+    color: #03a9f4;
+}
+
+.team-social-icon li:nth-child(3) a {
+    color: #0077b7;
+}
+
+.team-social-icon li:nth-child(4) a {
+    color: #dd4b39;
+}
+
+.team-social-icon li:nth-child(5) a {
+    color: #bf338f;
+}
+
+.team-four-item-text {
+    text-align: center;
+    padding: 14px 0;
+}
+
+.team-four-item-text h3 {
+    font-size: 18px; 
+    color: #1e2126;
+    font-weight: 600;
+}
+
+.team-four-item-text p {
+    font-size: 14px;
+}
+
+.team-four-item:hover .team-four-item-text h3,
+.team-four-item:hover .team-four-item-text p {
+    color: #ff555c;
+}
+
+
+/*
+========================================
+    Quote
+========================================
+*/
+.quote-four-area {
+    position: relative;
+}
+
+.quote-four-area::before,
+.quote-four-area::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.quote-four-area::before {
+    left: 0;
+    background-image: url(../img/quote.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.quote-four-area::after {
+    right: 0;
+    background-image: url(../img/quote-map.jpg);
+    padding: 325px 0 160px;
+}
+
+.quote-content {
+    padding: 90px 70px;
+}
+
+.quote-content h4 {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.hero-form {}
+
+.hero-form .hero-input-box {
+    font-size: 16px;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 0;
+    border-radius: 5px;
+}
+
+.hero-form .btn-4 {
+    width: 100%;
+    border: 0;
+    background-color: #fff;
+    color: #c21523;
+}
+.hero-form .btn-4:hover {
+    color: #fff;
+}
+/*
+  ========================================
+  Testimonial
+  ========================================
+*/
+
+.testimonial-four-area {
+    position: relative;
+    background-image: url(../img/testimonial-four-bg.jpg);
+}
+
+.testimonial-four-area .section-title {
+    color: #fff;
+}
+
+.testimonial-four-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 17, 39, 0.815);
+}
+
+.testimonial-four-slider {}
+
+
+.testimonial-item {}
+
+.testimonial-text {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 40px 35px;
+    position: relative;
+    color: #fff;
+}
+
+.testimonial-text::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 43px;
+    background: #071122;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-clip-path: polygon(0 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 100%, 0% 100%);
+}
+
+.testimonial-text ul {}
+
+.testimonial-text ul li {
+    display: inline-block;
+}
+
+.testimonial-text ul li i {
+    font-size: 14px; 
+    color: #ff8b03;
+}
+
+.testimonial-text h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 19px;
+}
+
+.testimonial-text p { 
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.testimonial-profile {
+    margin-top: 30px;
+}
+
+.testimonial-profile img {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 100px;
+    margin-right: 30px;
+}
+
+.testimonial-profile-title {
+    padding: 10px 0 0;
+    color: #fff;
+}
+
+.testimonial-profile-title h6 {
+    font-size: 18px; 
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.testimonial-profile-title span {
+    font-size: 14px;
+}
+
+.testimonial-four-slider .owl-item.active.center .testimonial-text {
+    background-color: #e0382d;
+}
+
+.testimonial-four-slider .owl-item.active.center .testimonial-text::before {
+    background: #e0382d;
+}
+.testimonial-four-slider .owl-nav.disabled+.owl-dots {
+    margin-top: 50px;
+}
+
+.testimonial-four-slider .owl-dots .owl-dot.active span, .testimonial-four-slider .owl-dots .owl-dot:hover span {
+    background: #e0382d;
+}
+
+/*
+  ========================================
+  News
+  ========================================
+*/
+
+.news-item {}
+
+.news-slider .news-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.news-slider .news-text {
+    position: relative;
+    width: 50%;
+    border: 0;
+}
+
+.news-text .news-calendar {
+    font-size: 12px; 
+    color: #aeaeae;
+    font-weight: 500;
+}
+
+.news-text .other-title {
+    font-size: 18px; 
+    padding: 13px 0 14px;
+    display: block;
+    color: #031227;
+    font-weight: 600;
+}
+
+.news-text p {
+    font-size: 14px; 
+    padding-bottom: 26px;
+}
+
+.news-slider .owl-nav [class*=owl-] {
+    position: absolute;
+    color: #152545 !important;
+    background: #e6e7e5 !important;
+    font-size: 30px !important;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    outline: none;
+}
+
+.news-slider .owl-prev {
+    left: -90px;
+}
+
+.news-slider .owl-next {
+    right: -90px;
+}
+
+.news-img {
+    width: 50%;
+    height: 100%;
+}
+
+.blog-img-four-1,
+.blog-img-four-2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px 0 0 10px;
+}
+
+.blog-img-four-1 {
+    background-image: url(../img/blog1.jpg);
+
+}
+
+.blog-img-four-2 {
+    background-image: url(../img/blog2.jpg);
+}
+
+ 
